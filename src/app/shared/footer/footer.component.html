@@ -3,13 +3,13 @@
     <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
       <ul class="rk-menu rk-footer-menu">
         <li class="rk-menu__item">
-          <a routerLink="home" class="rk-menu__link">About</a>
+          <a routerLink="home" class="rk-menu__link">Home</a>
         </li>
         <li class="rk-menu__item">
-          <a href="documentation.html" class="rk-menu__link">Docs</a>
+          <a routerLink="about" class="rk-menu__link">About</a>
         </li>
         <li class="rk-menu__item">
-          <a href="contact.html" class="rk-menu__link">Contact</a>
+          <a target="_blank" [href]="_infoService.info.pagina_autor" class="rk-menu__link">Github</a>
         </li>
       </ul>
       <p class="rk-footer__text rk-footer__copy">
